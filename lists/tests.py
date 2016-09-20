@@ -124,7 +124,6 @@ class ListViewTest(TestCase):
         self.assertEqual(response.context['list'], correct_list)
 
 
-
 class NewListTest(TestCase):
 
     def test_saving_a_POST_request(self):
